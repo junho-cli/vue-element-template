@@ -1,24 +1,11 @@
-# new-pm-client
+## vue-element-template
+目前项目还在完善.
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+### 客户端运行
+```shell
+$: git clone http://172.16.10.197/production6/sgga/frontEnd/sgga-client.git
+$: npm install --registry http://172.16.10.131:4873
+$: npm run serve
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
