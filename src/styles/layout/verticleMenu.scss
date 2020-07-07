@@ -1,0 +1,33 @@
+.verticle-navMenu-wrap {
+  position: fixed;
+  width: 220px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: $navbar-background-black;
+  transition: all .3s;
+  z-index: 1001;
+  &.is-collapse   {
+    width: 70px !important;
+  }
+  .navMenu-link {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    overflow: hidden;
+    background-color: $navbar-background-black;
+    width: 219px;
+    color: $navbar-title-color;
+    text-align: center;
+    height: 67px;
+    line-height: 67px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    .navMenu-link-icon {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px;
+    }
+  }
+}
